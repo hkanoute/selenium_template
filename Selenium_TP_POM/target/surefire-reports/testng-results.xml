@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-21T14:53:22 CET" name="Surefire suite" finished-at="2025-03-21T14:53:27 CET" duration-ms="4902">
+    <groups>
+    </groups>
+    <test started-at="2025-03-21T14:53:22 CET" name="Surefire test" finished-at="2025-03-21T14:53:27 CET" duration-ms="4902">
+      <class name="LoginTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:LoginTest@4066c471]" started-at="2025-03-21T14:53:24 CET" name="setUp" finished-at="2025-03-21T14:53:25 CET" duration-ms="1000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.connexionFailedTest()[pri:0, instance:LoginTest@4066c471] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="connexionFailedTest()[pri:0, instance:LoginTest@4066c471]" started-at="2025-03-21T14:53:25 CET" name="connexionFailedTest" finished-at="2025-03-21T14:53:26 CET" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connexionFailedTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:LoginTest@4066c471]" started-at="2025-03-21T14:53:26 CET" name="tearDown" finished-at="2025-03-21T14:53:26 CET" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=connexionFailedTest status=SUCCESS method=LoginTest.connexionFailedTest()[pri:0, instance:LoginTest@4066c471] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:LoginTest@4066c471]" started-at="2025-03-21T14:53:26 CET" name="setUp" finished-at="2025-03-21T14:53:27 CET" duration-ms="1042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.connexionTest()[pri:0, instance:LoginTest@4066c471] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="connexionTest()[pri:0, instance:LoginTest@4066c471]" started-at="2025-03-21T14:53:27 CET" name="connexionTest" finished-at="2025-03-21T14:53:27 CET" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connexionTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:LoginTest@4066c471]" started-at="2025-03-21T14:53:27 CET" name="tearDown" finished-at="2025-03-21T14:53:27 CET" duration-ms="100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=connexionTest status=SUCCESS method=LoginTest.connexionTest()[pri:0, instance:LoginTest@4066c471] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginTest -->
+      <class name="E2eLoginTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:E2eLoginTest@658c5a19]" started-at="2025-03-21T14:53:22 CET" name="setUp" finished-at="2025-03-21T14:53:24 CET" duration-ms="1425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=E2eLoginTest.checkoutTest()[pri:0, instance:E2eLoginTest@658c5a19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutTest()[pri:0, instance:E2eLoginTest@658c5a19]" started-at="2025-03-21T14:53:24 CET" name="checkoutTest" finished-at="2025-03-21T14:53:24 CET" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:E2eLoginTest@658c5a19]" started-at="2025-03-21T14:53:24 CET" name="tearDown" finished-at="2025-03-21T14:53:24 CET" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutTest status=SUCCESS method=E2eLoginTest.checkoutTest()[pri:0, instance:E2eLoginTest@658c5a19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2eLoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
